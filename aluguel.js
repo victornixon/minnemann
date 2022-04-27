@@ -37,7 +37,7 @@
         period = convertPeriod(period);
 
         const licence = info[1].textContent;
-        const msg = `A Prancha Modelo ${licence} permaneceu por ${period} locada. \n\n Deseja encerrar?`;
+        const msg = `A Prancha Modelo ${licence} permaneceu por ${period} alugada. \n\n Deseja encerrar?`;
 
         if(!confirm(msg)) return;
         
